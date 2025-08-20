@@ -1,6 +1,3 @@
-# Angular-Project
-Nagnath college managment System using Angular
-
 # 🎓 Nagnath College Management System
 
 🧑‍💻 Group member  
@@ -17,7 +14,6 @@ Made with 💡 by
 📧 amitabhshindevolley45@gmail.com  
 📧 mrhrishikesh1337@gmail.com  
 📧 badaveajinkya55@gmail.com 
-
 📧 yashkhatwate2225@gmail.com   
 
 📍 India  
@@ -64,7 +60,16 @@ Built with **Spring Boot** for backend, **Angular** for frontend, and **PostgreS
 - **GitHub Actions** (CI/CD)
 
 ---
- 
+
+## 📊 System Architecture
+
+```mermaid
+graph LR
+    A[Frontend - Angular] --> B(Spring Boot API)
+    B --> C[(PostgreSQL DB)]
+    B --> D[Authentication & Authorization]
+    A --> E[Reports & Analytics]
+
 
 1) Database Setup
 
